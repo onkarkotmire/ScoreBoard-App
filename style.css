@@ -1,0 +1,117 @@
+*{
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    margin-top: 30px;
+    
+  }
+
+
+  h3{
+    padding: 20px;
+    color: red;
+  }
+  #headadd{
+    padding: 20px;
+    color: black;
+  }
+  .heading-input{
+    height: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+  }
+  .input{
+    width: 18%;
+    height:100%;
+    border: 2px solid rgb(233, 196, 159);
+    font-size: 20px;
+    padding: 20px;
+  }
+   .btn{
+    width: 18%;
+    height: 100;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(233, 196, 159);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+ }
+
+ .player-data{
+    display: flex;
+    align-items: center;
+    background-color: rgb(233, 196, 159);
+    height: 80px;
+    width: 80%;
+    justify-content: center;
+ }
+  .nametag {
+ color: black;
+ width: 22%;
+ height: 70%;
+ font-size: 20px;
+ padding: 10px;
+ font-weight: 600;
+ }
+ .scoretag {
+    color: black;
+    width: 22%;
+    height: 70%;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+
+    }
+
+.countrytag{
+    color: black;
+    width: 22%;
+    height: 70%;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+    }
+.circle{
+    width: 70%;
+    height: 80%;
+    border-radius: 50%;
+    margin: 5px ;
+    padding: 10px;
+    background-color: white;
+}
+ .button{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70%;
+    width: 22%;
+ }
+
