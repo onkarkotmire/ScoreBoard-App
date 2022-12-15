@@ -20,7 +20,7 @@
             <input type="number" class="input" placeholder="Score">
             <button class="input btn"><h3 id="headadd">Add Player</h3></button>
         </div>
-        <h3>All fields are required</h3>
+        <h3 id="required"></h3>
     </div>    
 <script>
 const inputelements = document.getElementsByClassName("input");
@@ -50,9 +50,10 @@ score.value="";
 
 })
 
+const required = document.getElementById("required");
 function isAllFieldValid(fname, lname, cname, scoreinput) {
       if(fname === "" || lname === "" || cname === "" || scoreinput === "") {
-          window.alert("All Fields are Required")
+          required.innerText = "All Field are Required";
           return false;
       }else{
         return true;
